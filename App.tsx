@@ -65,7 +65,10 @@ function App(): React.JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <SliderCarousel entries={entries} onCurrentItem={console.log} />
+          <SliderCarousel
+            entries={entries}
+            onCurrentItem={c => console.log('Current Slide', c)}
+          />
         </View>
       </ScrollView>
     </SafeAreaView>

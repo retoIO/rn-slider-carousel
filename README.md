@@ -1,5 +1,7 @@
 # Getting Started
 
+<img src="https://raw.githubusercontent.com/retoIO/rn-slider-carousel/main/screen.gif" />
+
 ```
 npm install @juanpablocs/rn-slider-carousel
 ```
