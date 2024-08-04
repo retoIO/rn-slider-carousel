@@ -10,7 +10,7 @@ import React from 'react';
 import SliderCarousel from '@juanpablocs/rn-slider-carousel';
 
 function App(): React.JSX.Element {
-  const markers = [
+  const entries = [
   {
     lat: -12.1207698,
     lng: -77.0304079,
